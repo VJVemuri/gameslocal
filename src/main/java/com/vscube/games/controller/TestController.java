@@ -26,7 +26,7 @@ public class TestController {
 
         quizRepository.save(quiz1);
         quizRepository.save(quiz2);
-
+        System.out.println("ding");
         return quizRepository.findAll();
 
 
